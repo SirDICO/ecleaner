@@ -1,0 +1,161 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background: #f3f1f1;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 18px;
+}
+
+h1,h2,h3,h4,h5{
+   color:#761070;
+   font-weight: bold;
+   font-size: 2em;
+}
+/* navigation */
+.navbar{
+   background:#5e175c;
+  height: 4rem;
+  width: 100%;
+}
+nav ul{
+   text-align: center;
+}
+
+nav ul li{
+   display: inline;
+   padding: 0 3px;
+}
+a{
+   text-decoration: none;
+   color:#fff;
+
+   
+}
+
+nav ul li a:hover{
+  color:#760000;
+  background:#000;
+  padding: 0.25rem 0.5rem;
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+.logo{
+   margin-left: 100px;
+
+}
+
+/* Home */
+
+.home{
+   background:#1f1d1d;
+   text-align: center;
+   width: 100%;
+   height: 100vh;
+   color:white;
+}
+.home:hover{
+   background:#cabacb;
+   color:#000;
+}
+.home-heading{
+    padding-top: 10rem;
+   font-size: 3em;
+}
+.home-intro{
+   padding: 2em 2em;
+   font-size: 20px;
+   font-style: italic;
+   
+}
+.home-btn{
+   background:#761070;
+   padding: 0.75rem 1.5rem;
+   color:#fff;
+   margin-top: 15px;
+   outline:3px solid #fff;
+   outline-offset:-7px ;
+   border-radius: 5px;
+}
+.home-btn:hover{
+   background:#760000;
+   color:#fff;
+   transform: scale(1.2);
+}
+
+/* About */
+.about{
+   width: 100%;
+   height: 100vh;
+   background: #1f031e;
+   color:#fff;
+}
+.about:hover{
+   background:#cabacb;
+   color:#000;
+}
+.about-heading{
+   text-decoration: overline;
+   padding-top: 3rem;
+   text-align: center;
+}
+.about p{
+   text-align: center;
+   width: 50%;
+   margin: 10rem auto;
+   letter-spacing: 1.5px;
+   word-spacing: .2rem;
+}
+
+/* service */
+.service{
+   background:#1f1b1f;
+   width: 100%;
+   height: 75vh;
+   color:#fff;
+}
+.service:hover{
+   background:#cabacb;
+   color:#000;
+}
+.service-heading{
+   text-decoration: overline;
+   padding-top: 3rem;
+   text-align: center;
+}
+.service-items{
+   text-align: center;
+   padding-top: 10rem;
+  
+}
+.service-item{
+ background:#7b2a76;
+ display: inline;
+ margin: 0 3px;
+ padding: 5rem 1rem;
+ border: 15px double #1f031e;
+ color:#fff;
+ border-radius: 10px;
+}
+.service-item:hover{
+   background:#fff;
+   transform: scale(1.2);
+   border:5px dotted #760000;
+   color:#5e175c;
+}
+.footer{
+   background:#000;
+   padding: 2rem 0;
+}
+.footer footer div {
+   text-align: center;
+   color:#fff;
+}
+
+.footer:hover{
+   background:#1f031e;
+   color:#761070;
+}
